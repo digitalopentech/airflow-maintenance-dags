@@ -7,8 +7,8 @@ airflow trigger_dag --conf '[curly-braces]"maxDBEntryAgeInDays":30[curly-braces]
 
 --conf options:
     maxDBEntryAgeInDays:<INT> - Optional
-
 """
+
 import airflow
 from airflow import settings
 from airflow.configuration import conf
